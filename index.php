@@ -11,7 +11,7 @@ session_start();
 // {
 //     $page = $_GET['page'];
 // }
-require('apps/traitement_users.php');
+require('apps/traitementUsers.php');
 
 require('apps/skel.php');
 
