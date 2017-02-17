@@ -1,5 +1,98 @@
+/*--------GENERALES-------*/
+
 body {
-	background-image: url("style/Light_From_Right_1600 x 1200.jpg");
+	background: url("Light_From_Right_1600 x 1200.jpg") no-repeat center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+.container {
+	
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*---------HEADER-----------*/
+
+.menu {
+	text-align: center;
+	margin: 30px 0px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	color: #343B80;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 25px;
+
+}
+
+.logo h1 {
+	font-family: 'Caveat Brush', cursive;
+	text-align: center;
+	color: #343B80;
+	font-size: 75px;
+	display: inline;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.logo_img {
+	width: 70px;
+}
+
+
+
+
+/*-------------MAIN-----------*/
+
+.box_chat {
 	width: 100%;
-	background-position: center center;
+	background-color: white;
+	height:600px; 
+}
+.box_writeMessage {
+
+	background-color: #F9F9F9;
+	padding: 20px 5px 5px 5px;
+
+}
+
+.users_in {
+	
+	padding: 0px 0px 0px 10px;
+
+
+
+
+}
+textarea {
+	width: 90%;
+	height: 80px;
+	padding: 5px 10px;
+	resize :none;
+}
+
+.users {
+	float: left;
+	width: 30%;
+	background-color: red;
+	display: none;
+}
+
+.message {
+	float:right;
+	width: 100%;
+	
+	}
+
+input[type=submit] {
+
 }
