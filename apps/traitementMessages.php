@@ -15,7 +15,7 @@ if(isset($_POST["content"], $_SESSION['id']))
 	if (count($errors) == 0)
 	{
 		$content = mysqli_real_escape_string($db, $content); //pour la secruité
-		$res=mysqli_query($db, "INSERT INTO messages (content) VALUES('".$content."', '".$_SESSION['id']."')");
+		$res=mysqli_query($db, "INSERT INTO messages (content, id_author) VALUES('".$content."', '".$_SESSION['id']."')");
 		if ($res)
 		{
 			header("Location: index.php?page=messages");
