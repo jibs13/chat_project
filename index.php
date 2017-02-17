@@ -2,7 +2,7 @@
 $errors = [];
 // $page = "login";
 
-$db = mysqli_connect("198.168.1.10","chat","chat","chat");
+$db = mysqli_connect("192.168.1.10","chat","chat","chat");
 
 session_start();
 
