@@ -14,6 +14,8 @@ session_start();
  }
 require('apps/traitementUsers.php');
 
+require('apps/traitementMessages.php');
+
 require('apps/skel.php');
 
 ?>
