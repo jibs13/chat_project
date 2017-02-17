@@ -107,11 +107,10 @@ body {
 .bloc_texte p {
 	padding: 5px 10px;
 }
-textarea {
-	width: 80%;
-	height: 80px;
-	padding: 5px 10px;
-	resize :none;
+#content_text {
+	width: 85%;
+	height: 50px;
+	word-wrap: break-word;
 }
 
 .users {
@@ -170,5 +169,5 @@ input[type=submit] {
 /*-----------PAGE REGISTER--------------*/
 
 .containerRegister {
-	
+
 }
