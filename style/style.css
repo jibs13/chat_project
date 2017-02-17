@@ -118,6 +118,11 @@ input[type=submit] {
 	
 }
 
+.affichage_message {
+	height: 500px;
+	overflow : auto;
+}
+
 /*--------------PAGE LOGIN------------*/
 
 .box_login {
