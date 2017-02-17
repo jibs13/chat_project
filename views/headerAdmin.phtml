@@ -1,9 +1,16 @@
 <header>
+	<div class="logo">
+		<a href="index.php">
+			<img class="logo_img" src="./style/black-cat.svg" alt="">
+			<h1>Chat Project</h1>
+		</a>
+	</div>
+
 	<h1>ADMIN</h1>
 	
 	<p>Bonjour <strong><?=htmlentities($_SESSION['login'])?></strong>, vous êtes maintenant connecté(e) en tant qu'<strong>admin</strong> !</p>
 
-	
+
 	<a href="index.php?page=register">Profil</a>
 	<a href="index.php?page=register">Logouot</a>
 </header>
