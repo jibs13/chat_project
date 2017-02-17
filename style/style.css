@@ -52,6 +52,28 @@ body {
 	text-decoration: none;
 }
 
+/*----HEADER ADMIN----*/
+
+.menu_users {
+	text-align: center;
+}
+
+.menu_users a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	color: #343B80;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 25px;
+
+}
+
+.user {
+	background-color: #eee;
+	padding: 5px 10px 5px 10px;
+
+}
+
 
 
 /*-------------MAIN MESSAGE-----------*/
@@ -71,10 +93,6 @@ body {
 .users_in {
 	
 	padding: 0px 0px 0px 10px;
-
-
-
-
 }
 
 .bloc_texte {
@@ -109,7 +127,7 @@ textarea {
 	background-color: white;
 	border : 1px solid #eee;
 	
-	}
+}
 
 input[type=submit] {
 
@@ -119,9 +137,10 @@ input[type=submit] {
 }
 
 .affichage_message {
-	height: 500px;
+	height: 450px;
 	overflow : auto;
 }
+
 
 /*--------------PAGE LOGIN------------*/
 
@@ -146,4 +165,10 @@ input[type=submit] {
  	padding: 10px 0px;
  	color :white;
  	font-size: 15px;
+}
+
+/*-----------PAGE REGISTER--------------*/
+
+.containerRegister {
+	
 }
