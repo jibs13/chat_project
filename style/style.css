@@ -59,7 +59,7 @@ body {
 .box_chat {
 	width: 100%;
 	background-color: white;
-	height:600px; 
+	 
 }
 .box_writeMessage {
 
@@ -75,6 +75,19 @@ body {
 
 
 
+}
+
+.bloc_texte {
+	word-wrap: break-word;
+	padding : 15px 10px 15px 10px;
+}
+
+.bloc_texte h2 {
+
+	font-size: 20px;
+}
+.bloc_texte p {
+	padding: 5px 10px;
 }
 textarea {
 	width: 80%;
@@ -93,6 +106,8 @@ textarea {
 .message {
 	float:right;
 	width: 100%;
+	background-color: white;
+	border : 1px solid #eee;
 	
 	}
 
