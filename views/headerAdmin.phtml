@@ -5,12 +5,11 @@
 			<h1>Chat Project</h1>
 		</a>
 	</div>
-
-	<h1>ADMIN</h1>
-	
-	<p>Bonjour <strong><?=htmlentities($_SESSION['login'])?></strong>, vous êtes maintenant connecté(e) en tant qu'<strong>admin</strong> !</p>
-
-
-	<a href="index.php?page=users">Profil</a>
-	<a href="index.php?page=logout">Logout</a>
+	<nav class="menu_users">
+		<a href="index.php?page=users">Profil</a>
+		<a href="index.php?page=logout">Logout</a>
+	</nav>
+	<div class="user">
+		<p>Bonjour <strong><?=htmlentities($_SESSION['login'])?></strong>, vous êtes maintenant connecté(e) en tant que Admin !</p>
+	</div>
 </header>
