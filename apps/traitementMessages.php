@@ -8,9 +8,9 @@ if(isset($_POST["content"], $_SESSION['id']))
 	{
 		$errors[] = "Contenu trop long (> 4095)";
 	}
-	else if (strlen($content) < 65)
+	else if (strlen($content) < 2)
 	{
-		$errors[] = "Contenu trop court (< 65)";
+		$errors[] = "Contenu trop court (< 2)";
 	}
 	if (count($errors) == 0)
 	{
