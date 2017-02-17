@@ -48,10 +48,13 @@ body {
 	width: 70px;
 }
 
+.logo a {
+	text-decoration: none;
+}
 
 
 
-/*-------------MAIN-----------*/
+/*-------------MAIN MESSAGE-----------*/
 
 .box_chat {
 	width: 100%;
@@ -100,3 +103,27 @@ input[type=submit] {
 	
 }
 
+/*--------------PAGE LOGIN------------*/
+
+.box_login {
+
+	width: 600px;
+	margin: 0 auto;
+	padding: 50px;
+
+}
+
+.box_login input{
+	width: 100%;
+	margin: 20px 0px;
+	/*padding: 5px 10px;*/
+	
+
+}
+.bouton_login {
+	border:none;
+ 	background-color: #343B80;
+ 	padding: 10px 0px;
+ 	color :white;
+ 	font-size: 15px;
+}
