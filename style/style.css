@@ -74,7 +74,7 @@ body {
 
 }
 textarea {
-	width: 90%;
+	width: 80%;
 	height: 80px;
 	padding: 5px 10px;
 	resize :none;
@@ -95,4 +95,8 @@ textarea {
 
 input[type=submit] {
 
+	float:right;
+	width: 10%;
+	
 }
+
