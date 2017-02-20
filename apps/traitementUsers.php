@@ -44,15 +44,19 @@ if (isset($_POST['action']))
 			{
 				$errors[] = "Email invalide";
 			}
-
+			if (filter_var($avatar, FILTER_VALIDATE_URL) == false)
+			{
+				$errors[] = "Avatar invalide";
+			}
 
 			
 			if (count($errors) == 0)
 			{
 				$login = mysqli_real_escape_string($db, $login);
 				$email = mysqli_real_escape_string($db, $email);
-				$hash = password_hash($password1, PASSWORD_BCRYPT, ["cost"=>13]);
 				$birthdate = mysqli_real_escape_string($db, $birthdate);
+				$avatar = mysqli_real_escape_string($db, $avatar);
+				$hash = password_hash($password1, PASSWORD_BCRYPT, ["cost"=>13]);
 				$res = mysqli_query($db, "INSERT INTO users (login, password, email, birthdate, avatar) VALUES('".$login."', '".$hash."', '".$email."', '".$birthdate."', '".$avatar."')");
 				if ($res)
 				{
