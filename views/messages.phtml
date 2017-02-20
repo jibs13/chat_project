@@ -1,34 +1,27 @@
 <div class="box_chat">
-		<div class="message">
-			<div class="users_in">
-				<p><strong>Maud, Laetitia et Jb</strong> : sont entrain de discuter</p>
-			</div>
-			<div class="affichage_message js_msg_list">
-				<?php require('apps/message.php') ?>
-			</div>
-			<div class="box_writeMessage">
-				<form method="post" action="">
-					<label for="content"></label>
-					<input placeholder="Ecrivez votre message" type="text" name="content" id="content_text" autofocus/>
-					<input class="bouton_login" type="submit" value="envoyer">
-				</form>
-			</div>
+	<div class="message">
+		<div class="users_in">
+			<p><strong>Maud, Laetitia et Jb</strong> : sont entrain de discuter</p>
 		</div>
+		<div class="affichage_message js_msg_list">
+			<?php require('apps/message.php') ?>
+		</div>
+		<div class="box_writeMessage">
+			<form method="post" action="">
+				<label for="content"></label>
+				<input placeholder="Ecrivez votre message" type="text" name="content" id="content_text" autofocus/>
+				<input class="bouton_login" type="submit" value="envoyer">
+			</form>
+		</div>
+	</div>
 </div>
-
-		<div>
-			<div class="active_users js_active_users">
-				<ul>
-					<li><?php require('apps/active_users.php') ?></li>
-				</ul>
-			</div>
-
-
-		</div>
-
-		
-
-
+<div> 
+	<div class="active_users">
+		<ul class="js_active_users">
+			<?php require('apps/active_users.php') ?>
+		</ul>
+	</div>
+</div>
 
 <script>
 setInterval(function()

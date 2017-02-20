@@ -231,7 +231,7 @@ padding: 50px 50px;
 	width: 70%;
 }
 
-.active_users ul li {
+.js_active_users, .active_users_li {
 	list-style:none;
 	display: inline-block;
 }
@@ -239,7 +239,9 @@ padding: 50px 50px;
 .active_users ul {
 	padding: 20px;
 }
-
+.username{
+	font-weight: bold;
+}
 
 
 /*-------------PAGE PROFILE-------------*/

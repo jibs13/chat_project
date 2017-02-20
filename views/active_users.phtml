@@ -1,6 +1,7 @@
+<li class="active_users_li">
 	<div class="avatar_img clear_fix">
 		<img class="avatar" src="<?=htmlentities($users['avatar'])?>" alt="avatar"/>
 	</div>
-	<p><?= $users["login"]?></p>
-	<p><?= $users["status"]?></p>  
-		
+	<p class="username"><?= $users["login"]?></p>
+	<small><?= $users["status"]?></small>  
+</li>	
