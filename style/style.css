@@ -242,6 +242,9 @@ padding: 50px 50px;
 .username{
 	font-weight: bold;
 }
+.active_users p {
+	display: inline;
+}
 
 
 /*-------------PAGE PROFILE-------------*/
@@ -264,4 +267,10 @@ padding: 50px 50px;
 	float: right;
 	width: 10%;
 	padding-left: 20px;
+}
+
+.alert {
+	text-align: center;
+	font-weight: bold;
+	color: red;
 }
