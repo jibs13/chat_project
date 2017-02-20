@@ -239,6 +239,9 @@ padding: 50px 50px;
 .active_users ul {
 	padding: 20px;
 }
+.active_users p {
+	display: inline;
+}
 
 
 
@@ -262,4 +265,10 @@ padding: 50px 50px;
 	float: right;
 	width: 10%;
 	padding-left: 20px;
+}
+
+.alert {
+	text-align: center;
+	font-weight: bold;
+	color: red;
 }
