@@ -263,3 +263,9 @@ padding: 50px 50px;
 	width: 10%;
 	padding-left: 20px;
 }
+
+.alert {
+	text-align: center;
+	font-weight: bold;
+	color: red;
+}
