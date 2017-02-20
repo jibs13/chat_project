@@ -3,8 +3,8 @@
 	 	<img class="avatar" src="<?=$user['avatar']?>"/>
 	</div>
 	<div class="content_profile">
-		<h2>Votre Pseudo :  <?=$user['login']?> </h2>
-		<p> Votre date de naissance : <?=$user['birthdate']?> </p>
-		<p> Votre adresse Email : <?=$user['email']?> </p>
+		<h2>Votre Pseudo :  <?=htmlentities($user['login'])?> </h2>
+		<p> Votre date de naissance : <?=htmlentities($user['birthdate'])?> </p>
+		<p> Votre adresse Email : <?=htmlentities($user['email'])?> </p>
 	</div>
 </article>
