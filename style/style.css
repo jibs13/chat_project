@@ -233,7 +233,14 @@ padding: 50px 50px;
 
 .active_users ul li {
 	list-style:none;
+	display: inline-block;
 }
+
+.active_users ul {
+	padding: 20px;
+}
+
+
 
 /*-------------PAGE PROFILE-------------*/
 
@@ -254,4 +261,5 @@ padding: 50px 50px;
 .avatar_img {
 	float: right;
 	width: 10%;
+	padding-left: 20px;
 }
