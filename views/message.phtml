@@ -1,8 +1,9 @@
 <article>
+	<div class="avatar_img">
+		<img class="avatar" src="<?=htmlentities($message['avatar'])?>" alt="avatar"/>
+	</div>
 	<div class="bloc_texte">
 		<h2><?=htmlentities($message['login'])?></h2>
 		<p><?=htmlentities($message['content'])?></p>
 	</div>
-	<img class="avatar" src="<?=htmlentities($message['avatar'])?>" alt="avatar"/>
-	 <span>le <?=$message['date']?></span>
-</article>
+<span class="box_date">le <?=$message['date']?></span>></article>
