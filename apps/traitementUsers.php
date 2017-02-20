@@ -93,6 +93,7 @@ if ($action == "login")
 			if (count($errors) == 0)
 			{
 				$login = mysqli_real_escape_string($db, $login);
+				$password = mysqli_real_escape_string($db, $password);
 				// $hash = password_hash($password1, PASSWORD_BCRYPT, ["cost"=>15]);
 				$res = mysqli_query($db, "SELECT * FROM users WHERE login='".$login."'");
 				if ($res)
