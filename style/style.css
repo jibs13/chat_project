@@ -91,7 +91,10 @@ body {
 
 .users_in {
 	
-	padding: 0px 0px 0px 10px;
+	padding: 20px 10px;
+	color: white;
+	background-color: #343B80;
+	opacity: 0.9;
 }
 
 .bloc_texte {
@@ -226,4 +229,13 @@ border : 2px solid rgba(52,59,128, 0.8);
 background-color: #fff;
 padding: 50px 50px;
 
+}
+
+.clear_fix {
+	clear: both;
+}
+
+.avatar_img {
+	float: right;
+	width: 20%;
 }
