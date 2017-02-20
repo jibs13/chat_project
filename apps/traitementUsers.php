@@ -1,6 +1,14 @@
 <?php
 // var_dump($_POST);
 
+if(isset($_SESSION['id']))
+{
+
+$res = mysqli_query($db, "UPDATE users SET status= CURRENT_TIMESTAMP WHERE users.id=".$_SESSION["id"]);
+
+}
+
+
 if (isset($_GET['page']) && $_GET['page'] == "logout")
 {
 	session_destroy();
