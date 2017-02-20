@@ -127,7 +127,7 @@ body {
 	
 }
 
-input[type=submit] {
+.bouton_envoyer {
 
 	float:right;
 	width: 10%;
@@ -157,6 +157,7 @@ input[type=submit] {
 	
 
 }
+
 .bouton_login {
 	border:none;
  	background-color: #343B80;
@@ -167,6 +168,25 @@ input[type=submit] {
 
 /*-----------PAGE REGISTER--------------*/
 
-.containerRegister {
+.box_register {
 
+width: 50%;
+margin: 0 auto;
+border : 2px solid rgba(52,59,128, 0.8);
+background-color: #fff;
+padding: 50px 50px;
 }
+
+.box_register h1 {
+    margin: 0;
+	font-family: 'Caveat Brush', cursive;
+	text-align: center;
+}
+
+.box_infosRegister input, .box_infosRegister label {
+	
+	display:block;
+	width: 100%;
+	margin: 20px 0px;
+}
+
