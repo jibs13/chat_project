@@ -160,7 +160,9 @@ body {
 
 .bouton_login {
 	border:none;
+	width: 100%;
  	background-color: #343B80;
+ 	margin-top: 20px;
  	padding: 10px 0px;
  	color :white;
  	font-size: 15px;
