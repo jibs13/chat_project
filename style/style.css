@@ -208,11 +208,14 @@ padding: 50px 50px;
 	float: right;
 	width: 30%;
 	background: white;
+	height: 682px;
+	overflow : auto;
+
 }
 
 .box_chat {
 	float: left;
-	width: 60%;
+	width: 70%;
 }
 
 .active_users ul li {
