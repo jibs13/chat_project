@@ -198,3 +198,19 @@ padding: 50px 50px;
 	border-radius: 50%;
 
 }
+
+
+.active_users {
+	float: right;
+	width: 30%;
+	background: white;
+}
+
+.box_chat {
+	float: left;
+	width: 60%;
+}
+
+.active_users ul li {
+	list-style:none;
+}
