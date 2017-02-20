@@ -97,18 +97,25 @@ body {
 	opacity: 0.9;
 }
 
+.affichage_message article {
+	margin: 80px 5px;
+}
+
+.affichage_message article .avatar_img {
+	float: left;
+}
+
 .bloc_texte {
 	word-wrap: break-word;
-	padding : 15px 10px 15px 10px;
+	float: right;
+	width: 80%;
 }
 
 .bloc_texte h2 {
 
 	font-size: 20px;
-}
-.bloc_texte p {
-	padding: 5px 10px;
-}
+	margin: 0px;}
+
 #content_text {
 	width: 85%;
 	height: 50px;
@@ -140,6 +147,12 @@ body {
 .affichage_message {
 	height: 450px;
 	overflow : auto;
+}
+
+.box_date {
+	float: right;
+	font-size: 15px;
+	font-style: italic;
 }
 
 
@@ -208,16 +221,26 @@ padding: 50px 50px;
 	float: right;
 	width: 30%;
 	background: white;
+	height: 682px;
+	overflow : auto;
+
 }
 
 .box_chat {
 	float: left;
-	width: 60%;
+	width: 70%;
 }
 
 .active_users ul li {
 	list-style:none;
+	display: inline-block;
 }
+
+.active_users ul {
+	padding: 20px;
+}
+
+
 
 /*-------------PAGE PROFILE-------------*/
 
@@ -237,5 +260,6 @@ padding: 50px 50px;
 
 .avatar_img {
 	float: right;
-	width: 20%;
+	width: 10%;
+	padding-left: 20px;
 }
