@@ -6,8 +6,8 @@ if (isset($_SESSION['id']))
 }
 else
 {
-	header('Location: index.php?page=login');
-	exit;
+	// header('Location: index.php?page=login');
+	// exit;
 }
 
 ?>
