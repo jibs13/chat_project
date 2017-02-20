@@ -1,7 +1,4 @@
 <div class="box_chat">
-		<div class="users">
-		
-		</div>
 		<div class="message">
 			<div class="users_in">
 				<p><strong>Maud, Laetitia et Jb</strong> : sont entrain de discuter</p>
@@ -18,11 +15,20 @@
 			</div>
 		</div>
 </div>
+		<div>
+			<div class="active_users">
+				<ul>
+					<li><?php require('apps/active_users.php') ?></li>
+				</ul>
+			</div>
+
+
+		</div>
 
 
 <script>
 setInterval(function()
 {
 	$('.js_msg_list').load('index.php?page=message&ajax');
-}, 5000);
+}, 6000);
 </script>
