@@ -117,7 +117,7 @@ body {
 	margin: 0px;}
 
 #content_text {
-	width: 85%;
+	width: 99%;
 	height: 50px;
 	word-wrap: break-word;
 }
@@ -245,7 +245,11 @@ padding: 50px 50px;
 .active_users p {
 	display: inline;
 }
-
+.box_avatar label, .box_avatar input {
+	display:block;
+	width: 100%;
+	margin: 20px 0px;
+}
 
 /*-------------PAGE PROFILE-------------*/
 
