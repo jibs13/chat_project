@@ -6,8 +6,8 @@ if (isset($_SESSION['id']))
 }
 else
 {
-	// header('Location: index.php?page=login');
-	// exit;
+	echo("Vous ne pouvez pas accéder à cette page, veuillez vous identifier avant:");
+	require("apps/login.php");
 }
 
 ?>
