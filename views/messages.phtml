@@ -16,7 +16,7 @@
 		</div>
 </div>
 		<div>
-			<div class="active_users">
+			<div class="active_users js_active_users">
 				<ul>
 					<li><?php require('apps/active_users.php') ?></li>
 				</ul>
@@ -30,5 +30,6 @@
 setInterval(function()
 {
 	$('.js_msg_list').load('index.php?page=message&ajax');
+	$('.js_active_users').load('index.php?page=active_users&ajax');
 }, 6000);
 </script>
