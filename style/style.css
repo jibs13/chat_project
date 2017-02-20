@@ -190,3 +190,9 @@ padding: 50px 50px;
 	margin: 20px 0px;
 }
 
+.avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+
+}
