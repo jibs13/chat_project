@@ -24,7 +24,7 @@ if(isset($_POST["content"], $_SESSION['id']))
 		else
 		{
 			$errors[] = "Erreur interne";
-			$errors[] = mysqli_error($db);
+			// $errors[] = mysqli_error($db);
 		}
 	}
 }
