@@ -78,7 +78,7 @@ body {
 /*-------------MAIN MESSAGE-----------*/
 
 .box_chat {
-	width: 100%;
+	/*width: 100%;*/
 	background-color: white;
 	 
 }
@@ -200,6 +200,7 @@ padding: 50px 50px;
 }
 
 
+
 .active_users {
 	float: right;
 	width: 30%;
@@ -213,4 +214,16 @@ padding: 50px 50px;
 
 .active_users ul li {
 	list-style:none;
+}
+
+/*-------------PAGE PROFILE-------------*/
+
+.bloc_profile {
+
+width: 50%;
+margin: 0 auto;
+border : 2px solid rgba(52,59,128, 0.8);
+background-color: #fff;
+padding: 50px 50px;
+
 }
