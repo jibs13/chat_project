@@ -1,7 +1,8 @@
-<article>
-	<div class="bloc_texte">
-		<h2> <?=$user['login']?></h2>
-		<p> <?=$user['birthdate']?></p>
-	</div>
+<article class="bloc_profile">
 	 <span>le <img class="avatar" src="<?=$user['avatar']?>"/></span>
+	<div>
+		<h2>Votre Pseudo :  <?=$user['login']?> </h2>
+		<p> Votre date de naissance : <?=$user['birthdate']?> </p>
+		<p> Votre adresse Email : <?=$user['email']?> </p>
+	</div>
 </article>

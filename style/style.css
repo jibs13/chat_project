@@ -198,3 +198,15 @@ padding: 50px 50px;
 	border-radius: 50%;
 
 }
+
+
+/*-------------PAGE PROFILE-------------*/
+
+.bloc_profile {
+
+width: 50%;
+margin: 0 auto;
+border : 2px solid rgba(52,59,128, 0.8);
+background-color: #fff;
+padding: 50px 50px;
+}
