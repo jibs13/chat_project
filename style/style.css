@@ -213,6 +213,7 @@ padding: 50px 50px;
 	height: 80px;
 	border-radius: 50%;
 
+
 }
 
 
@@ -234,6 +235,14 @@ padding: 50px 50px;
 .js_active_users, .active_users_li {
 	list-style:none;
 	display: inline-block;
+}
+
+.active_users_li {
+	width:80%;
+}
+
+.active_users_li img {
+	transform:scale(0.8);
 }
 
 .active_users ul {
